@@ -25,9 +25,9 @@ public class Initials {
         System.out.println("Enter your lastname: ");
         lname=sc.nextLine();
         
-        String initials= fname.substring(0, 1) + "." + mname.substring(0, 1)+ "." + lname.substring(0, 1);
+        String initial= fname.substring(0, 1) + "." + mname.substring(0, 1)+ "." + lname.substring(0, 1);
         
-        System.out.println(initials);
+        System.out.println(initial);
     }
     
 }
